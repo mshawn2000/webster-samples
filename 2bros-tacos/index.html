@@ -1,7 +1,35 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>2BROS TACOS | Charlotte, NC</title>
-<style>body{margin:0;font-family:system-ui,Arial,sans-serif;color:#222;background:#fafafa}header{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1600') center/cover;color:#fff;text-align:center;padding:110px 20px}h1{font-size:2.6em;margin:0}.tag{font-size:1.2em;opacity:.9}.btn{display:inline-block;margin-top:20px;background:#d9480f;color:#fff;padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:bold}main{max-width:900px;margin:auto;padding:30px 20px;display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.card{background:#fff;padding:22px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.08)}h2{margin-top:0;color:#d9480f}table{width:100%}td{padding:3px 0}footer{text-align:center;padding:20px;font-size:.8em;color:#777}iframe{width:100%;height:220px;border:0;border-radius:8px}</style></head>
-<body><header><h1>2BROS TACOS</h1><div class="tag">Taco food truck on S Tryon St, Charlotte</div><div>&#9733; 4.6 on Google &middot; 248 reviews</div><a class="btn" href="tel:+17048396795">Call (704) 839-6795</a></header>
-<main><div class="card"><h2>Hours</h2><table><tr><td>Mon–Wed</td><td>10:30 AM–4 PM</td></tr><tr><td>Thu–Sat</td><td>10:30 AM–9 PM</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table></div>
-<div class="card"><h2>Visit Us</h2><p>13920 S Tryon St, Charlotte, NC 28278</p><p><a href="tel:+17048396795">(704) 839-6795</a></p><p><a href="https://facebook.com/100152449437890">Follow us on Facebook</a></p></div>
-<div class="card" style="grid-column:1/-1"><iframe loading="lazy" src="https://maps.google.com/maps?q=13920%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028278&output=embed"></iframe></div></main>
-<footer>Sample site preview. Photo: Unsplash (stock), not the business's own.</footer></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2BROS TACOS | Charlotte, NC</title>
+<style>
+:root{--accent:#e4572e;--ink:#111;--paper:#f6f4ef;--muted:#6b6b6b}
+*{box-sizing:border-box}body{margin:0;font-family:"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+a{color:inherit}.wrap{max-width:1080px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:9;background:rgba(17,17,17,.92);color:#fff}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.links a{margin-left:22px;text-decoration:none;font-size:.9em;opacity:.85}
+.cta{background:var(--accent);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:700;display:inline-block}
+.hero{min-height:88vh;display:flex;align-items:flex-end;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=1800') center/cover}
+.hero .wrap{padding-bottom:80px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:.8em;opacity:.85}
+h1{font-size:clamp(2.6em,7vw,5em);line-height:1;margin:.2em 0;font-weight:900;text-transform:uppercase}
+.hero p{max-width:560px;font-size:1.15em;opacity:.9}
+.stats{background:var(--ink);color:#fff}.stats .wrap{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;padding:36px 24px}
+.stats b{display:block;font-size:2em;color:var(--accent)}.stats span{font-size:.85em;opacity:.75;text-transform:uppercase;letter-spacing:.1em}
+section{padding:96px 0}h2{font-size:2.2em;margin:0 0 8px;font-weight:900;text-transform:uppercase}.sub{color:var(--muted);margin:0 0 40px}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:#fff;border-radius:14px;padding:28px;border:1px solid #e7e3da}.card h3{margin:0 0 6px}
+.visit{background:#fff}.visit .wrap{display:grid;gap:40px;grid-template-columns:1fr 1fr}
+table{width:100%;border-collapse:collapse}td{padding:10px 0;border-bottom:1px solid #eee}td:last-child{text-align:right;font-weight:600}
+iframe{width:100%;height:100%;min-height:320px;border:0;border-radius:14px}
+.ghost{background:transparent;border:2px solid #fff}.svc{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #e7e3da}.band{background:var(--accent);color:#fff;text-align:center}.band .cta{background:#111}
+footer{background:#111;color:#aaa;font-size:.8em;text-align:center;padding:28px}
+@media(max-width:720px){.hero .cta{margin:0 8px 12px 0}.links{display:none}.visit .wrap{grid-template-columns:1fr}.stats .wrap{grid-template-columns:1fr;gap:18px}}
+</style></head><body>
+<nav><div class="wrap"><div class="logo">2BROS TACOS</div><div class="links"><a href="#about">About</a><a href="#visit">Hours</a><a class="cta" href="tel:+17048396795">Call</a></div></div></nav>
+<header class="hero"><div class="wrap"><div class="eyebrow">Taco Food Truck · S Tryon St · Charlotte</div><h1>2BROS TACOS</h1><p>Tacos from the truck on South Tryon. Lunch all week, dinner Thursday through Saturday.</p><a class="cta" href="tel:+17048396795">Call (704) 839-6795</a>  <a class="cta ghost" href="https://www.google.com/maps/dir/?api=1&destination=13920%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028278">Get directions</a></div></header>
+<div class="stats"><div class="wrap"><div><b>4.6 ★</b><span>Google rating</span></div><div><b>248</b><span>Google reviews</span></div><div><b>Til 9 PM</b><span>Thu–Sat</span></div></div></div>
+<section id="about"><div class="wrap"><h2>The Truck</h2><p class="sub">Find us on South Tryon in southwest Charlotte.</p><div class="grid"><div class="card"><h3>Lunch Mon–Wed</h3><p>10:30 AM to 4 PM.</p></div><div class="card"><h3>Late Thu–Sat</h3><p>10:30 AM to 9 PM.</p></div><div class="card"><h3>Location</h3><p>13920 S Tryon St, Charlotte, NC 28278.</p></div></div></div></section>
+<section id="visit" class="visit"><div class="wrap"><div><h2>Visit</h2><p class="sub">13920 S Tryon St, Charlotte, NC 28278</p><p><a href="tel:+17048396795">(704) 839-6795</a></p><table><tr><td>Mon–Wed</td><td>10:30 AM–4 PM</td></tr><tr><td>Thu–Sat</td><td>10:30 AM–9 PM</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table><p><a class="cta" href="https://www.google.com/maps/dir/?api=1&destination=13920%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028278">Get directions</a></p><p><a href="https://facebook.com/100152449437890">Facebook page</a></p></div><iframe loading="lazy" src="https://maps.google.com/maps?q=13920%20S%20Tryon%20St%2C%20Charlotte%2C%20NC%2028278&output=embed"></iframe></div></section>
+<section class="band"><div class="wrap"><h2>Hungry? Call ahead.</h2><a class="cta" href="tel:+17048396795">Call now</a> </div></section>
+<footer>Sample site preview</footer>
+</body></html>
